@@ -17,7 +17,7 @@ The Base64-decoded message is then further encrypted using the Caesar cipher wit
 The final decoded message contains the flag in the format CTF{best_crypto_flag}. Participants must extract the flag from the decoded message.
 
 # Usage
-1. Run the provided Python script (ctf_challenge.py).
+1. Run the provided Python script (Flag_Challenge.py).
 2. Follow the instructions printed in the console to see the encoded and decoded messages at each step of the challenge.
 
 # Requirements
