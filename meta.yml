@@ -1,9 +1,9 @@
-name: Base64 and Caesar Cypher
+name: Enigma Expedition(Crack the Cryptic Code)
 
-docker_image: localhost:56156/<Your-Challenge-Name>
+docker_image: localhost:5000/ctf-ctf
 
 description: |
-  author: Medha Goel https://github.com/goelmedha1/CTF
+  author: [goelmedha1] (https://github.com/goelmedha1/CTF)
 
   Example Instruction:
   This challenge is a set of two cryptography methods used to solve the main question.
