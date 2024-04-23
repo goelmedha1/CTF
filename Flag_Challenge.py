@@ -1,7 +1,7 @@
 import base64
 
 #Encode the message using base64
-message = "Here we are, take this flag CTF{best_cypto_flag}"
+message = "Congratulations! You found the flag: CTF_SDaT{H3r3s_Your_Fl4g_Cryp70_M45t3rm1nd}"
 encoded_message = base64.b64encode(message.encode()).decode()
 print("Encoded Message:", encoded_message)
 
@@ -18,7 +18,7 @@ def caesar_cipher(text, shift):
     return result
 
 # Encoded base64 message
-plaintext_message = "SGVyZSB3ZSBhcmUsIHRha2UgdGhpcyBmbGFnIENURntiZXN0X2N5cHRvX2ZsYWd9"
+plaintext_message = "Q29uZ3JhdHVsYXRpb25zISBZb3UgZm91bmQgdGhlIGZsYWc6IENURl9TRGFUe0gzcjNzX1lvdXJfRmw0Z19DcnlwNzBfTTQ1dDNybTFuZH0="
 
 # Choose a shift value for the Caesar cipher
 shift = 3
@@ -40,7 +40,7 @@ def caesar_cipher_decrypt(text, shift):
     return result
 
 # Encoded message using Caesar cipher
-encoded_message_caesar = "VJYbCVE3CVEkfpXvLKUkd2XjgJksfbEpeJIqLHQXUqwlCAQ0A2Q5fKUyA2CvBZg9"
+encoded_message_caesar = "T29xC3MkgKYvBAUse25cLVECe3XjCp91epTjgJkoLJCvBZf6LHQXUo9WUJIXh0jcfmQcA1oygAMiUpz0C19GfqozQcEiWWT1gGQbeWIxCK0="
 
 # Choose the same shift value used for encryption
 shift = 3
