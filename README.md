@@ -1,44 +1,43 @@
-# CTF Challenge: Base64 & Caesar Cipher
+# CTF Challenge: Enigma Expedition(Crack the Cryptic Code)
 
 # Description:
-This CTF challenge involves a message that has been encoded using both Base64 and the Caesar cipher. Participants need to decode the message to reveal the hidden flag.
+This is a cryptography challenge web application built using Flask. The challenge involves decrypting messages related to cryptography.
+
 
 # Objective:
-The objective of this challenge is to demonstrate understanding and proficiency in decoding messages encrypted with Base64 and the Caesar cipher.
+The objective of this challenge is to demonstrate understanding and proficiency in decoding messages encrypted with different methods.
 
-# Challenge Steps
-# 1. Base64 Encoding: 
-The message is initially encoded using Base64. Participants must decode the Base64-encoded message to reveal an intermediate message.
+# Features
+- Provides an image related to cryptography for recognition.
+- Presents encoded messages to decrypt.
+- Offers hints for decryption.
+- Validates user input for decryption.
+- Displays congratulatory messages upon successful decryption.
+- Includes interactive forms for user input.
+- Uses JavaScript for client-side validation and interaction.
+- Integrates with Docker for easy deployment.
 
-# 2. Caesar Cipher Encryption: 
-The Base64-decoded message is then further encrypted using the Caesar cipher with a specific shift value. Participants must decrypt the Caesar cipher-encoded message to reveal the final message.
-
-# 3. Flag: 
-The final decoded message contains the flag in the format CTF{best_crypto_flag}. Participants must extract the flag from the decoded message.
+# Installation
+- Clone this repository to your local machine.
+- Ensure you have Docker installed.
+- Navigate to the project directory.
+- Run the following command to build and run the Docker container:
+  docker-compose up --build
+- Access the application in your web browser at http://localhost:5000.
 
 # Usage
-1. Run the provided Python script (Flag_Challenge.py).
-2. Follow the instructions printed in the console to see the encoded and decoded messages at each step of the challenge.
+- Visit the homepage to start the challenge.
+- Follow the instructions provided on the page.
+- Input the decrypted text in the designated form fields.
+- Click the "Submit" button to check your answer.
+- Continue with the challenge until completion.
 
-# Requirements
-Python 3.x
-
-# Files
-ctf_challenge.py: Python script containing the challenge code.
-
-# Getting Started
-1. Clone or download the repository to your local machine.
-2. Ensure you have Python installed.
-3. Run the Python script to see the encoded and decoded messages.
-
-# Example Output
-Encoded Message: SGVyZSB3ZSBhcmUsIHRha2UgdGhpcyBmbGFnIENURntiZXN0X2N5cHRvX2ZsYWd9
-Encoded message using Caesar cipher: VJYbCVE3CVEkfpXvLKUkd2XjgJksfbEpeJIqLHQXUqwlCAQ0A2Q5fKUyA2CvBZg9
-Decoded message using Caesar cipher: Here we are, take this flag CTF{best_cypto_flag}
-Decoded Message: Here we are, take this flag CTF{best_cypto_flag}
+# Credits
+Cryptography images sourced from Britannica.
 
 # Author
-goelmedha1
+[goelmedha1]
+
 
 
 
