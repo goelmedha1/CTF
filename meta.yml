@@ -1,0 +1,32 @@
+name: Base64 and Caesar Cypher
+
+docker_image: localhost:56156/<Your-Challenge-Name>
+
+description: |
+  author: Medha Goel https://github.com/goelmedha1/CTF
+
+  Example Instruction:
+  This challenge is a set of two cryptography methods used to solve the main question.
+
+  Step 1:
+    Decrypt the first text using Caesar Cypher. 
+  Step 2:
+    decrypt the solution from the first step using Base64.
+  Step 3:
+    Submit the Flag.
+
+
+# Available categories are:
+category: Cryptography
+# Your custom Flag
+flag: CTF_SDaT{H3r3s_Your_Fl4g_Cryp70_M45t3rm1nd}
+
+hints:
+  - {
+    content: "The first image is of Julius Caesar, therefore the first decryption will be done using Caesar Cypher.",
+
+  }
+  - {
+    content: "The second decryption technique is Base64 since it is one of the common languages in which computers communicate.",
+
+  }
