@@ -1,4 +1,4 @@
-# Writeup for Cryptography/CTF challenge: Base64 and Caesar Cipher
+# Writeup for Cryptography/Enigma Expedition(Crack the Cryptic Code)
 
 Author: [goelmedha1] (https://github.com/goelmedha1/CTF)
 
