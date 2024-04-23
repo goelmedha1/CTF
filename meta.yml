@@ -15,7 +15,8 @@ description: |
   Step 3:
     Submit the Flag.
 
-
+# Value should be in range of 100-300
+value: 200
 # Available categories are:
 category: Cryptography
 # Your custom Flag
